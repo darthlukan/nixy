@@ -11,12 +11,11 @@ it.
 
 It should:
 
-1. Connect to an IRC server.
-2. Join configured channel(s).
-3. Set IRC nick from configuration.
+1. Open connection to an IRC server.
+2. Initialise IRC connection (username, nick, modes).
+3. Join configured channels(s).
 4. Have a dynamic plugin system, which can load/reload/unload plugins,
-   even when the bot was running. This can be done by command, or
-   plugin directory write detection (inotify).
+   even when the bot was running. This can be done by command.
 5. Process channel events, and pass to plugins if necessary.
 6. Develop quote plugin, for storing and retrieving channel
    quotes. Stored in a database.
