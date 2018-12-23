@@ -23,6 +23,7 @@ It should:
 8. Develop search plugin based on user queries, and return results.
 9. Develop plugin for notes to be left for other users. These notes
    display when the user is next active in the channel.
+10. Be available on the Nixheads Discord as well.
 
 ## License
 
