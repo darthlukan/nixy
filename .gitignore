@@ -6,3 +6,6 @@
 
 *.cache
 node_modules
+
+# ignore generated executable
+/nixy
